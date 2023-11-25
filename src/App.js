@@ -144,7 +144,7 @@ function App() {
             >
               <div className="flex items-center">
                 <h1
-                  className={`lg:text-2xl xl:text-4xl lg:font-semibold lg:p-6 `}
+                  className={`lg:text-2xl xl:text-3xl lg:font-semibold lg:p-6 `}
                 >
                   {slogan}
                 </h1>
@@ -161,39 +161,39 @@ function App() {
                 />
               </div>
               <h3
-                className={`lg:text-2xl xl:text-4xl lg:font-semibold lg:pl-6 font-bold text-xl mt-3 `}
+                className={`lg:text-2xl xl:text-3xl lg:font-semibold lg:pl-6 font-bold text-xl mt-3 `}
               >
                 {author}
               </h3>
             </div>
           </div>
-          <div className="middle  sm:mb-7 lg:mb-10 lg:ml-7 md:flex md:justify-between md:items-center">
+          <div className="middle mb-7  sm:mb-7 lg:mb-10 lg:ml-7 md:flex md:justify-between md:items-center">
             <div className="left">
               <div className="wish flex  items-center mb-5">
                 <img
-                  className="mr-3 xl:w-16"
+                  className="mr-3  xl:w-9"
                   src={hours > 18 ? MoonImg : SunImg}
                   alt=""
                 />
-                <h1 className="text-2xl xl:text-4xl lg:text-2xl lg:font-semibold">
+                <h1 className="text-2xl xl:text-3xl lg:text-2xl lg:font-semibold">
                   GOOD {timeOfDay}
                 </h1>
                 <h1
-                  className={` lg:text-2xl  xl:text-4xl lg:font-semibold text-xl ${
+                  className={` lg:text-2xl  xl:text-3xl lg:font-semibold text-xl ${
                     Screensize > 640 ? "block" : "hidden"
                   }`}
                 >
-                  ,IT'S CURRENTLY
+                  , IT'S CURRENTLY
                 </h1>
               </div>
               <div className="time  ">
                 <div className="watch flex items-end">
-                  <h1 className="text-7xl xl:text-9xl mb-3 lg:text-8xl  font-bold">
+                  <h1 className="text-7xl xl:text-8xl mb-3 lg:text-8xl  font-bold">
                     {hours}:{minutes}
                   </h1>
                   <h2 className="text-base xl:text-2xl lg:text-xl">{code}</h2>
                 </div>
-                <div className="country text-2xl xl:text-5xl font-bold lg:text-3xl mb-3">
+                <div className="country text-2xl xl:text-4xl font-bold lg:text-3xl mb-3">
                   <p>IN {country}</p>
                 </div>
               </div>
