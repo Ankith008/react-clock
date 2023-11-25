@@ -167,7 +167,7 @@ function App() {
               </h3>
             </div>
           </div>
-          <div className="middle mb-7  sm:mb-7 lg:mb-10 lg:ml-7 md:flex md:justify-between md:items-center">
+          <div className="middle mb-10  sm:mb-7 lg:mb-10 lg:ml-7 md:flex md:justify-between md:items-center">
             <div className="left">
               <div className="wish flex  items-center mb-5">
                 <img
