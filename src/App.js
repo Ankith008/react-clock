@@ -176,7 +176,7 @@ function App() {
                   alt=""
                 />
                 <h1 className="text-2xl xl:text-3xl lg:text-2xl lg:font-semibold">
-                  GOOD {timeOfDay}
+                  GOOD {wish}
                 </h1>
                 <h1
                   className={` lg:text-2xl  xl:text-3xl lg:font-semibold text-xl ${
